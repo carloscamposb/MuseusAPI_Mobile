@@ -1,4 +1,4 @@
-## Bairros e Museus _ app React Native 📃🤓
+## Bairros & Museus _ app React Native 📃🤓
 
 Projeto desenvolvido como uma das atividades finais da disciplina Mobile 2024.2
 _________
