@@ -42,16 +42,16 @@ const App = () => {
       const response = await fetch(apiUrl);
       const data = await response.json();
 
-      console.log('API Response:', data);
+      // console.log('API Response:', data);
 
       if (data.success) {
         if (data.result.records.length === 0) {
           Alert.alert('Aviso', 'Não há museus neste bairro.');
         }
       
-      } else {
-        setRecifeData(data.result.records);
       }
+        setRecifeData(data.result.records); 
+     
     } catch (error) {
       Alert.alert('Erro', 'Houve um problema na busca dos dados. Tente novamente mais tarde.');
     }
