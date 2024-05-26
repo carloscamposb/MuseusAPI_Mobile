@@ -1,6 +1,6 @@
 ## Bairros & Museus _ app React Native 📃🤓
 
-Projeto desenvolvido como uma das atividades finais da disciplina Mobile 2024.2
+Projeto desenvolvido como uma das atividades finais da disciplina Mobile 2024.1
 _________
 
 ### Objetivo:
