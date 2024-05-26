@@ -48,9 +48,9 @@ const App = () => {
         if (data.result.records.length === 0) {
           Alert.alert('Aviso', 'Não há museus neste bairro.');
         }
-        setRecifeData(data.result.records);
+     
       } else {
-        Alert.alert('Erro', 'Dados não encontrados. Verifique a consulta e tente novamente.');
+        setRecifeData(data.result.records);
       }
     } catch (error) {
       Alert.alert('Erro', 'Houve um problema na busca dos dados. Tente novamente mais tarde.');
