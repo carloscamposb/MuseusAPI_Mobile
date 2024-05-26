@@ -111,7 +111,7 @@ const App = () => {
                   latitude: location.coords.latitude,
                   longitude: location.coords.longitude,
                 }}
-                title="Você está aqui"
+                title="Você está aqui!"
               />
             </MapView>
           </View>
