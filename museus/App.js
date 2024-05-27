@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, TouchableOpacity, Alert, ScrollView } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, Alert, ScrollView, Linking, StyleSheet } from 'react-native';
 import * as Location from 'expo-location';
 import MapView, { Marker } from 'react-native-maps';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
@@ -143,7 +143,10 @@ const App = () => {
                   </View>
                 </View>
                 <Text style={{ fontWeight: '500' }}>Contato: {record.telefone}</Text>
-                <Text style={{ fontWeight: '500' }}>Site: {record.site}</Text>
+                {/* Texto do site transformado em link clicável */}
+                {record.site && (
+                  <Text style={styles.linkText} onPress={() => Linking.openURL(record.site)}> Site: {record.site}</Text>
+                )}
               </Animatable.View>
             ))}
           </View>
@@ -152,5 +155,13 @@ const App = () => {
     </ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  linkText: {
+    fontWeight: '500',
+    color: 'blue',
+    textDecorationLine: 'underline',
+  },
+});
 
 export default App;
