@@ -8,7 +8,7 @@ _________
 Implementação de Mapa e consumo de API. 
 __________
 ### Funcionalidade:
-Aplicativo tem como função que ousuário coloque um determinado bairro do Recife para verificar se há museus naquele bairro. Havendo museus ele mostrará a localização no mapa daquele museu e trazer informações abaixo sobre o museu como : Nome , descrição e contato
+O usuário tem o seu local de origem sentado no mapa por geolocalizacao. Na área de busca o usuário coloca um determinado bairro do Recife para verificar se há museus naquele bairro. Havendo museus ele mostrará a localização no mapa daquele museu e trará informações abaixo sobre o museu como: Nome , descrição e contato
 _______________
 ### Imports:
 * Importes da biblioteca React: `useState` hook utilizado para gerenciar o estado em componentes funcionais | `useEffect` hook que permite realizar efeitos colaterais em componentes como para buscar dados em API
