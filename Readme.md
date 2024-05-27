@@ -23,8 +23,8 @@ _______________
 
 ________________
 ### API consumido (Museus)
-> Informações sobre os museus do Recife e suas localizações georreferenciadas consumido do Banco de dados da Prefeitura do Recife: 
-____________________
+> Informações sobre os museus do Recife e suas localizações georreferenciadas consumido do Banco de dados da Prefeitura do Recife
+
 ### Colunas utilizadas:
 > Nome <br>
 > Bairro <br>
@@ -33,11 +33,9 @@ ____________________
 > Longitude  <br>
 > Telefone  <br>
 > email
-___________
+
 ## Link da tabela com os dados 
 > (http://dados.recife.pe.gov.br/dataset/roteiros-culturais-turismo-e-lazer/resource/97ab18da-f940-43b1-b0d4-a9e93e90bed5)
-
-
 
 __________________
 ### Tecnologias utilizadas
