@@ -139,10 +139,10 @@ const App = () => {
                 <Text style={{ fontWeight: 'bold', fontSize: 16 }}>{record.nome}</Text>
                 <View style={{ marginTop: 10, marginBottom: 10 }}>
                   <View>
-                    <Text style={{ fontWeight: '500' }}>Descrição: {record.descricao}</Text>
+                    <Text style={{ fontFamily:'Roboto_500Medium'}}>Descrição: {record.descricao}</Text>
                   </View>
                 </View>
-                <Text style={{ fontWeight: '500' }}>Contato: {record.telefone}</Text>
+                <Text style={{ fontFamily:'Roboto_500Medium' }}>Contato: {record.telefone}</Text>
                 {/* Texto do site transformado em link clicável */}
                 {record.site && (
                   <Text style={styles.linkText} onPress={() => Linking.openURL(record.site)}> Site: {record.site}</Text>
