@@ -11,7 +11,7 @@ __________
 O usuário tem o seu local de origem setado no mapa por geolocalizacao. Na área de busca o usuário coloca um determinado bairro do Recife para verificar se há museus naquele bairro. Havendo museus ele mostrará a localização no mapa daquele museu e trará informações abaixo sobre o museu como: Nome , descrição e contato
 _______________
 ### Imports:
-* Importes da biblioteca React: `useState` hook utilizado para gerenciar o estado em componentes funcionais | `useEffect` hook que permite realizar efeitos colaterais em componentes como para buscar dados em API
+* Importes da biblioteca React: `useState` hook utilizado para gerenciar o estado em componentes funcionais | `useEffect` hook que permite realizar efeitos colaterais em componentes.Nesse caso solicitando o acesso a localização do usuário.
 
 * Importa componentes específicos do React Native: `View`| `Text`| `TextInput`| `TouchableOpacity`| `Alert` | `ScrollView`
 
