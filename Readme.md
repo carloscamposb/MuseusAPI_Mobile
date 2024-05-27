@@ -32,7 +32,7 @@ ________________
 > Latitude  <br>
 > Longitude  <br>
 > Telefone  <br>
-> email
+> Site do museu
 
 ### Link da tabela com os dados 
 > (http://dados.recife.pe.gov.br/dataset/roteiros-culturais-turismo-e-lazer/resource/97ab18da-f940-43b1-b0d4-a9e93e90bed5)
