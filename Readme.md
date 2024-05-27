@@ -1,15 +1,17 @@
 ## Bairros & Museus _ app React Native 📃🤓
 
-Projeto desenvolvido como uma das atividades finais da disciplina Mobile 2024.1
+Projeto desenvolvido como uma das atividades finais da disciplina Mobile 2024.1. 
 _________
 
 ### Objetivo:
 
-Implementação de Mapa e consumo de API 
+Implementação de Mapa e consumo de API. 
 __________
-
+### Funcionalidade:
+O usuário tem o seu local de origem setado no mapa por geolocalizacao. Na área de busca o usuário coloca um determinado bairro do Recife para verificar se há museus naquele bairro. Havendo museus ele mostrará a localização no mapa daquele museu e trará informações abaixo sobre o museu como: Nome , descrição e contato
+_______________
 ### Imports:
-* Importes da biblioteca React: `useState` hook utilizado para gerenciar o estado em componentes funcionais | `useEffect` hook que permite realizar efeitos colaterais em componentes como para buscar dados em API
+* Importes da biblioteca React: `useState` hook utilizado para gerenciar o estado em componentes funcionais | `useEffect` hook que permite realizar efeitos colaterais em componentes.Nesse caso solicitando o acesso a localização do usuário.
 
 * Importa componentes específicos do React Native: `View`| `Text`| `TextInput`| `TouchableOpacity`| `Alert` | `ScrollView`
 
@@ -21,7 +23,18 @@ __________
 
 ________________
 ### API consumido (Museus)
-* Informações sobre os museus do Recife e suas localizações georreferenciadas consumido do Banco de dados da Prefeitura do Recife: 
+> Informações sobre os museus do Recife e suas localizações georreferenciadas consumido do Banco de dados da Prefeitura do Recife
+
+### Colunas utilizadas:
+> Nome <br>
+> Bairro <br>
+> Descrição  <br>
+> Latitude  <br>
+> Longitude  <br>
+> Telefone  <br>
+> Site do museu
+
+### Link da tabela com os dados 
 > (http://dados.recife.pe.gov.br/dataset/roteiros-culturais-turismo-e-lazer/resource/97ab18da-f940-43b1-b0d4-a9e93e90bed5)
 
 __________________
